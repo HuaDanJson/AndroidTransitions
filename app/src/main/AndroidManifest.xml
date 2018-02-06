@@ -30,6 +30,8 @@
         </activity>
         <activity android:name=".FragmentManagerActivity">
         </activity>
+        <activity android:name=".TwoAnimationActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -64,5 +64,13 @@
         android:layout_marginTop="20dp"
         android:text="Fragment转场"/>
 
+    <Button
+        android:id="@+id/btn8_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="多个动画"/>
+
 
 </LinearLayout>

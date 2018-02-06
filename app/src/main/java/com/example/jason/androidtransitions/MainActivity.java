@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.btn5_main_activity) Button btn5MainActivity;
     @BindView(R.id.btn6_main_activity) Button btn6MainActivity;
     @BindView(R.id.btn7_main_activity) Button btn7MainActivity;
+    @BindView(R.id.btn8_main_activity) Button btn8MainActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,5 +69,11 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.btn7_main_activity)
     public void onAppFragmentClicked() {
         startActivity(new Intent(this, FragmentManagerActivity.class));
+    }
+
+    @OnClick(R.id.btn8_main_activity)
+    public void onAppwoAnimationClicked() {
+        startActivity(new Intent(this, TwoAnimationActivity.class));
+        overridePendingTransition(R.anim.enter_from_right_two_animation, R.anim.out_default_main_activity);
     }
 }
