@@ -8,69 +8,103 @@
     android:orientation="vertical"
     tools:context="com.example.jason.androidtransitions.MainActivity">
 
-    <Button
-        android:id="@+id/btn1_main_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="新界面从上面滑出"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btn2_main_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="新界面从下面滑出"/>
-
-    <Button
-        android:id="@+id/btn3_main_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="新界面从左面滑出"/>
-
-    <Button
-        android:id="@+id/btn4_main_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="新界面从右面滑出"/>
-
-    <Button
-        android:id="@+id/btn5_main_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="系统默认跳转"/>
-
-    <Button
-        android:id="@+id/btn6_main_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="模拟默认跳转"/>
-
-    <Button
-        android:id="@+id/btn7_main_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="Fragment转场"/>
-
-    <Button
-        android:id="@+id/btn8_main_activity"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="多个动画"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
 
+            <Button
+                android:id="@+id/btn1_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="新界面从上面滑出"/>
+
+            <Button
+                android:id="@+id/btn2_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="新界面从下面滑出"/>
+
+            <Button
+                android:id="@+id/btn3_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="新界面从左面滑出"/>
+
+            <Button
+                android:id="@+id/btn4_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="新界面从右面滑出"/>
+
+            <Button
+                android:id="@+id/btn5_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="系统默认跳转"/>
+
+            <Button
+                android:id="@+id/btn6_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="模拟默认跳转"/>
+
+            <Button
+                android:id="@+id/btn7_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Fragment转场"/>
+
+            <Button
+                android:id="@+id/btn8_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="多个动画"/>
+
+            <Button
+                android:id="@+id/btn9_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Dialog动画"/>
+
+            <Button
+                android:id="@+id/btn10_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Image属性动画"/>
+
+            <ImageView
+                android:id="@+id/iv_main_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icon_sms"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
